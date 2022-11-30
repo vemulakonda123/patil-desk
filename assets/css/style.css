@@ -89,6 +89,7 @@ h6 {
   color: #fbfbfb;
   line-height: 0;
   margin-right: 5px;
+  font-style: normal;
 }
 
 #topbar .contact-info .phone-icon {
@@ -1458,7 +1459,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #090909;
+  background: rgb(0 151 70);
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1513,6 +1514,11 @@ section {
 
 #footer .credits {
   font-size: 13px;
+  color: #ffffff;
+}
+#footer .credits a {
+  font-size: 13px;
+  color: #ffffff;
 }
 @media (min-width: 1200px) {
 .container, .container-lg, .container-md, .container-sm, .container-xl {
@@ -1566,7 +1572,7 @@ section {
   width: 100%;
   background: #fff;
   margin-top: 10px;
-  box-shadow: 0 0 7px 0 rgba(0, 0, 0, .14);
+  box-shadow: 0 0 23px 0 rgb(0 0 0 / 28%);
   min-height: 150px
 }
 .style__container-padding___3jTBd {
@@ -1596,7 +1602,9 @@ section {
     .slick-list,
         .slick-slider {
             position: relative;
-            display: block
+            display: block;
+            
+
         }
 .slick-track:after,
 .slick-track:before {
@@ -1608,6 +1616,7 @@ section {
           left: 0;
           top: 0;
           display: block
+          
       }
       .slick-track:after {
         clear: both
@@ -1617,7 +1626,9 @@ section {
   }
   .slick-slider {
     box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: transparent;
+    
+    
 } 
 .slick-slider {
   -webkit-touch-callout: none;
@@ -1629,6 +1640,7 @@ section {
   -ms-touch-action: pan-y;
   touch-action: pan-y;
   width: 100%
+  
 }   
 .slick-initialized .slick-slide {
   display: block
@@ -1797,7 +1809,9 @@ section {
 .style__image-container___2G57P img {
   height: 120px;
   margin: auto;
-  display: block
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #858484;
 }
 .style__image-container___2G57P {
   display: block;
